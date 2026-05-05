@@ -14,8 +14,8 @@ ColdSeepSim models the development of fracture-controlled fluid flow
 systems that transport fluids and gases from deep subsurface sources to
 the seafloor. The model captures the coupled processes of:
 
--   Hydraulic fracture initiation and propagation\
--   Multiphase flow (liquid water and free gas)\
+-   Hydraulic fracture initiation and propagation
+-   Multiphase flow (liquid water and free gas)
 -   Multicomponent reactive transport (including methane hydrate
     formation)
 
@@ -34,10 +34,10 @@ A full description of the model and its applications is provided in:
 
 ## Model Features
 
--   Coupled hydro-mechanical and reactive transport processes\
--   Dynamic fracture evolution driven by fluid overpressure\
--   Multiphase flow (water + gas)\
--   Methane hydrate formation and dissociation\
+-   Coupled hydro-mechanical and reactive transport processes
+-   Dynamic fracture evolution driven by fluid overpressure
+-   Multiphase flow (water + gas)
+-   Methane hydrate formation and dissociation
 -   Depth-resolved simulation of physical and chemical variables
 
 ------------------------------------------------------------------------
