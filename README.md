@@ -1,6 +1,6 @@
 # ColdSeepSim
 
-[![DOI](https://zenodo.org/badge/DOI/XXXXX.svg)](https://doi.org/XXXXX)
+[![DOI](https://zenodo.org/badge/DOI/doi.org/20044229.svg)](https://doi.org/20044229)
 
 **ColdSeepSim** is a one-dimensional MATLAB-based numerical model for
 simulating the formation and long-term evolution of focused fluid escape
@@ -52,20 +52,20 @@ initialization.m
 
 ### Boundary Conditions
 
--   Bottom water flux (`qw`)\
--   Bottom gas flux (`qg`)\
--   Geothermal heat flux (`qt`)\
+-   Bottom water flux (`qw`)
+-   Bottom gas flux (`qg`)
+-   Geothermal heat flux (`qt`)
 -   Salinity of injected brine (`Cl_Bottom`)
 
 ### Fracture Properties
 
--   Maximum aperture (`w0`)\
--   Fracture spacing (`S_frac`)\
+-   Maximum aperture (`w0`)
+-   Fracture spacing (`S_frac`)
 -   Fracture compressibility (`C_frac`)
 
 ### Environmental Conditions
 
--   Seafloor temperature (`surf_T`)\
+-   Seafloor temperature (`surf_T`)
 -   Water depth (`seafloor`)
 
 ------------------------------------------------------------------------
@@ -74,18 +74,19 @@ initialization.m
 
 The model computes the depth-dependent evolution of:
 
--   Water pressure (`pw`)\
--   Effective stress (`eff_stress`)\
--   Temperature (`T`)\
--   Brine salinity (`cl`)\
--   Dissolved methane concentration (`cm`)\
--   Gas saturation (`sg`)\
--   Water saturation (`sw`)\
--   Methane hydrate saturation (`sh`)\
--   Fracture aperture (`w_frac`)\
+-   Water pressure (`pw`)
+-   Effective stress (`eff_stress`)
+-   Temperature (`T`)
+-   Brine salinity (`cl`)
+-   Dissolved methane concentration (`cm`)
+-   Gas saturation (`sg`)
+-   Water saturation (`sw`)
+-   Methane hydrate saturation (`sh`)
+-   Fracture aperture (`w_frac`)
 -   Fracture permeability (`kx`)
 
-Outputs are: - Saved periodically as `.mat` files\
+Outputs are: 
+- Saved periodically as `.mat` files
 - Printed to the MATLAB console
 
 ------------------------------------------------------------------------
@@ -100,8 +101,8 @@ Main_loop.m
 
 ### Default Configuration
 
-The default setup reproduces **Case 1** from the associated study: -
-Constant water flux at the lower boundary\
+The default setup reproduces **Case 1** from the associated study: 
+- Constant water flux at the lower boundary
 - Injected brine salinity of **16 wt.%**
 
 ------------------------------------------------------------------------
@@ -117,7 +118,7 @@ Constant water flux at the lower boundary\
 
 If you use this model, please cite:
 
-> You, K. (2026). *ColdSeepSim* \[Software\]. Zenodo. DOI: XXXXX
+> You, K. (2026). *ColdSeepSim v1.0.3: One-dimensional numerical model for formation and long-term evolution of focused-fluid escape systems in marine environments* [Software]. Zenodo. DOI: https://doi.org/10.5281/zenodo.20044229
 
 ------------------------------------------------------------------------
 
@@ -129,6 +130,6 @@ This project is released under the MIT License.
 
 ## Contact
 
-**Kehua You**\
-University of Texas at Austin\
+**Kehua You**
+University of Texas at Austin
 Email: kehua@ig.utexas.edu
