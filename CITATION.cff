@@ -1,14 +1,14 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "ColdSeepSim: One-dimensional numerical model for formation and long-term evolution of focused-fluid escape systems in marine environments"
+title: "ColdSeepSim v1.0.3: One-dimensional numerical model for formation and long-term evolution of focused-fluid escape systems in marine environments"
 type: software
 authors:
   - family-names: You
     given-names: Kehua
     affiliation: "University of Texas at Austin"
     email: "kehua@ig.utexas.edu"
-    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
-version: "1.0.0"
+    # orcid: "https://orcid.org/0000-0002-0194-8720"
+version: "1.0.3"
 date-released: "2026-05-05"
 abstract: "ColdSeepSim is a one-dimensional MATLAB-based numerical model for simulating the formation and long-term evolution of focused fluid escape systems in marine environments. The model couples hydraulic fracturing, multiphase flow, and multicomponent reactive transport, including methane hydrate formation."
 keywords:
@@ -20,4 +20,4 @@ keywords:
   - marine geosystems
 license: MIT
 repository-code: "https://github.com/KehuaYou/ColdSeepSim"
-# doi: "10.5281/zenodo.xxxxxxx"
+# doi: "10.5281/zenodo.20044229"
